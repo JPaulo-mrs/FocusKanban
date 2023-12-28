@@ -1,11 +1,3 @@
-var corTitulo;
-var botaoAdm;
-var botaoGep;
-var botaoMkt;
-var botaoPjt;
-var botaoPres;
-var botaoCom;
-var Card;
 
 function criarNova(){
 
@@ -19,6 +11,7 @@ function criarNova(){
   // Criar um novo botão para representar a tarefa
   var newTask = document.createElement("button");
   newTask.className = "item";
+  newTask.id = card.uid;
   newTask.draggable = "true";
   newTask.draggable = true;
   newTask.setAttribute('onclick', 'containerCard(this)');

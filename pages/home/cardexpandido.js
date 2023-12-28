@@ -315,7 +315,6 @@ function containerCard(clickedElement) {
   {
     ativ = clickedElement.querySelector(".atividade").innerText;
     boxAtiv.textContent = ativ;
-    console.log("pres1");
   }
   else
   {
